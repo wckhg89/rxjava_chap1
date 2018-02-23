@@ -23,7 +23,7 @@ public class FunctionalMain {
 
         fruits.stream().map(fruit -> fruit.getName()).forEach(System.out::println);
 
-        Fruit fruit = Fruit.extractMaxFruitFunctional(fruits);
+        Fruit.extractMaxFruitFunctional(fruits);
 
         List<Fruit> appleList = Fruit.extractFruitList(fruits, new Predicate<Fruit>() {
             @Override

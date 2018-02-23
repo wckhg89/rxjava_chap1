@@ -18,6 +18,4 @@ public class FirstExample {
         FirstExample demo = new FirstExample();
         demo.emit();
     }
-
-
 }
